@@ -8,7 +8,12 @@ title = "My New Hugo Site"
   audioformat = "audioformats"
 
 [outputs]
-  home = ["RSS"]
-  section = ["RSS"]
-  taxonomyTerm = ["RSS"]
-  taxonomy =["RSS"]
+  home = ["RSS","mp4"]
+  section = ["RSS","mp4"]
+  taxonomyTerm = ["RSS","mp4"]
+  taxonomy =["RSS","mp4"]
+
+[outputFormats]
+[outputFormats.mp4]
+mediaType = "application/rss+xml"
+baseName = "mp4"
