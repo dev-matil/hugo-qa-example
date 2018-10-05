@@ -1,0 +1,1 @@
+# hugo-qa-example
