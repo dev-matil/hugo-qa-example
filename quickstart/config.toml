@@ -6,3 +6,9 @@ title = "My New Hugo Site"
 [taxonomies]
   category = "categories"
   audioformat = "audioformats"
+
+[outputs]
+  home = ["RSS"]
+  section = ["RSS"]
+  taxonomyTerm = ["RSS"]
+  taxonomy =["RSS"]
